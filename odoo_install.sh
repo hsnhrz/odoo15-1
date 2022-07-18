@@ -14,7 +14,7 @@
 # ./odoo-install
 ################################################################################
 
-OE_USER="odoo-2"
+OE_USER="vitalhis"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 # The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
@@ -30,18 +30,18 @@ IS_ENTERPRISE="False"
 # Set this to True if you want to install Nginx!
 INSTALL_NGINX="False"
 # Set the superadmin password - if GENERATE_RANDOM_PASSWORD is set to "True" we will automatically generate a random password, otherwise we use this one
-OE_SUPERADMIN="herz-1"
+OE_SUPERADMIN="herz"
 # Set to "True" to generate a random password, "False" to use the variable in OE_SUPERADMIN
 GENERATE_RANDOM_PASSWORD="True"
 OE_CONFIG="${OE_USER}-server"
 # Set the website name
-WEBSITE_NAME="NEO-2"
+WEBSITE_NAME="vitalhis.com"
 # Set the default Odoo longpolling port (you still have to use -c /etc/odoo-server.conf for example to use this.)
 LONGPOLLING_PORT="8072"
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
 ENABLE_SSL="False"
 # Provide Email to register ssl certificate
-ADMIN_EMAIL="admin@neosys.com"
+ADMIN_EMAIL="admin@vitalhis.com"
 ##
 ###  WKHTMLTOPDF download links
 ## === Ubuntu Trusty x64 & x32 === (for other distributions please replace these two links,
